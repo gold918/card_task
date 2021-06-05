@@ -1,0 +1,38 @@
+.body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: #aadada;
+}
+
+.add_card:hover {
+    opacity: .7;
+}
+
+.card__change {
+    opacity: 0;
+    margin: 8px 8px 8px 0;
+    padding: 2px;
+    transition: opacity .4s;
+}
+
+.card:hover .card__change {
+    opacity: .9;
+}
+
+.card .card__change:hover {
+    opacity: .7;
+}
+
+.task__card{
+    background-color: rgba(0, 255, 64, 0.75);
+}
+
+.footer {
+    min-height: 60px;
+    background-color: #508590;
+}
